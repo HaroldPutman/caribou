@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carousel Study</title>
+    <style type="text/css">
+    .clearfix:before,
+    .clearfix:after {
+        content:"";
+        display:table;
+    }
+
+    .clearfix:after {
+        clear:both;
+    }
+
+    /* For IE 6/7 (trigger hasLayout) */
+    .clearfix { zoom:1; }
+    #box { position:relative; width: 600px; height:150px; overflow:hidden; border:1px solid red;}
+    ul { list-style-type:none;
+        width: 1404px;
+        position:relative;
+        left:-300px;
+        margin:0;
+        padding:0;}
+    li { float:left; width:154px; height:148px; border:1px solid yellow; text-align:center;}
+    li img { display:block; margin:0 auto;}
+    </style>
+</head>
+<body>
+    <div id="box" class="clearfix">
+    <ul class="clearfix">
+        <li><img src="http://placehold.it/150x100"/><span>One</span></li>
+        <li><img src="http://placehold.it/150x100"/><span>Two</span></li>
+        <li><img src="http://placehold.it/100x100"/><span>Three</span></li>
+        <li><img src="http://placehold.it/150x100"/><span>Four</span></li>
+        <li><img src="http://placehold.it/90x90"/><span>Five</span></li>
+        <li><img src="http://placehold.it/150x100"/><span>Six</span></li>
+        <li><img src="http://placehold.it/150x100"/><span>Seven</span></li>
+        <li><img src="http://placehold.it/150x60"/><span>Eight</span></li>
+        <li><img src="http://placehold.it/150x100"/><span>Nine</span></li>
+    </ul>
+    </div>
+    <!-- Insert your content here -->
+</body>
+</html>
